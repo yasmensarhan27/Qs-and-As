@@ -377,84 +377,84 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 
 2. **Why are thermodynamic potentials useful?**
    - **Answer**: They allow us to analyze systems under specific constraints:
-     - \(F\) for constant \(T, V\).
-     - \(G\) for constant \(T, P\).
-     - \(H\) for constant \(S, P\).
+     - $\(F\)$ for constant $\(T, V\)$.
+     - $\(G\)$ for constant $\(T, P\)$.
+     - $\(H\)$ for constant $\(S, P\)$.
 
 3. **What is the Gibbs-Duhem relation?**
    - **Answer**: It relates changes in chemical potential to changes in \(P\), \(T\), and \(N\):
-     \[
+     $\[
      SdT - VdP + \sum_i N_i d\mu_i = 0
-     \]
+     \]$
 
 4. **How are Maxwell relations derived?**
    - **Answer**: Maxwell relations are obtained by equating mixed partial derivatives of thermodynamic potentials. For example, from \(F = U - TS\):
-     \[
+     $\[
      \left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V
-     \]
+     \]$
 
 ---
 
 ### **Entropy and the Second Law of Thermodynamics**
 5. **What is the entropy of mixing?**
    - **Answer**: For two ideal gases mixed, the entropy increases:
-     \[
+     $\[
      \Delta S_{\text{mix}} = -Nk_B \left( x_1 \ln x_1 + x_2 \ln x_2 \right)
-     \]
-     where \(x_1, x_2\) are mole fractions.
+     \]$
+     where $\(x_1, x_2\)$ are mole fractions.
 
 6. **What is the second law of thermodynamics?**
    - **Answer**: It states that the entropy of an isolated system never decreases:
-     \[
+     $\[
      \Delta S \geq 0
-     \]
+     \]$
      Equality holds for reversible processes.
 
 7. **What is the third law of thermodynamics?**
    - **Answer**: As \(T \to 0\), the entropy of a system approaches a constant (often \(0\) for perfect crystals):
-     \[
+     $\[
      S \to 0 \text{ as } T \to 0
-     \]
+     \]$
 
 ---
 
 ### **Classical vs Quantum Statistics**
 8. **What is the classical limit of quantum statistics?**
-   - **Answer**: In the high-temperature or low-density limit (\(\lambda_T \ll d\), where \(\lambda_T\) is the thermal de Broglie wavelength), quantum distributions reduce to the classical Boltzmann distribution.
+   - **Answer**: In the high-temperature or low-density limit $(\(\lambda_T \ll d\)$, where $\(\lambda_T\)$ is the thermal de Broglie wavelength), quantum distributions reduce to the classical Boltzmann distribution.
 
 9. **How do fermions and bosons behave differently at low temperatures?**
    - **Answer**:
-     - **Fermions**: Obey the Pauli exclusion principle. At \(T = 0\), states are filled up to the Fermi energy.
-     - **Bosons**: Can occupy the same state. At low \(T\), Bose-Einstein condensation occurs.
+     - **Fermions**: Obey the Pauli exclusion principle. At $\(T = 0\)$, states are filled up to the Fermi energy.
+     - **Bosons**: Can occupy the same state. At low $\(T\)$, Bose-Einstein condensation occurs.
 
 ---
 
 ### **Grand Canonical Ensemble**
 10. **What is the grand partition function?**
     - **Answer**: It sums over all particle numbers and states:
-      \[
+      $\[
       \mathcal{Z} = \sum_{N=0}^\infty e^{\beta \mu N} Z_N
-      \]
-      where \(Z_N\) is the canonical partition function.
+      \]$
+      where $\(Z_N\)$ is the canonical partition function.
 
 11. **How is the chemical potential determined in the grand canonical ensemble?**
-    - **Answer**: The chemical potential (\(\mu\)) ensures particle number conservation and depends on the ensemble's constraints (e.g., fixed \(T, V\)).
+    - **Answer**: The chemical potential (\(\mu\)) ensures particle number conservation and depends on the ensemble's constraints (e.g., fixed $\(T, V\))$.
 
 ---
 
 ### **Transport and Nonequilibrium Processes**
 12. **What is the Boltzmann equation?**
     - **Answer**: It describes the time evolution of the distribution function \(f(r, p, t)\) for a gas:
-      \[
+      $\[
       \frac{\partial f}{\partial t} + \vec{v} \cdot \nabla_r f + \vec{F} \cdot \nabla_p f = \left(\frac{\partial f}{\partial t}\right)_{\text{collisions}}
-      \]
+      \]$
 
 13. **What is the significance of Onsager reciprocity relations?**
     - **Answer**: They relate cross-coupled fluxes (e.g., heat and particle flow) to symmetry properties of the system. For example:
-      \[
+      $\[
       L_{ij} = L_{ji}
-      \]
-      where \(L_{ij}\) are coefficients in the linear response matrix.
+      \]$
+      where $\(L_{ij}\)$ are coefficients in the linear response matrix.
 
 ---
 
@@ -464,19 +464,19 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 
 15. **What is the hyperscaling relation?**
     - **Answer**: It connects the dimensionality (\(d\)) of the system to critical exponents:
-      \[
+      $\[
       d\nu = 2 - \alpha
-      \]
+      \]$
 
 ---
 
 ### **Polymer and Biological Systems**
 16. **How does scaling apply to polymers?**
-    - **Answer**: For a polymer of length \(N\), the radius of gyration scales as:
-      \[
+    - **Answer**: For a polymer of length $\(N\)$, the radius of gyration scales as:
+      $\[
       R \sim N^\nu
-      \]
-      where \(\nu\) depends on the solvent quality.
+      \]$
+      where $\(\nu\)$ depends on the solvent quality.
 
 17. **What is the role of entropy in biological systems?**
     - **Answer**: Entropy drives self-organization, folding of proteins, and transport in biological membranes. For example, entropy increases when macromolecules adopt random-coil conformations.
@@ -486,9 +486,9 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 ### **Information and Entropy**
 18. **How is entropy connected to information theory?**
     - **Answer**: In Shannon’s theory, entropy quantifies uncertainty or information:
-      \[
+      $\[
       S = -\sum_i p_i \ln p_i
-      \]
+      \]$
       This is analogous to Boltzmann entropy.
 
 19. **What is the Szilard engine?**
@@ -499,14 +499,14 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 ### **Specific Heat and Low-Temperature Physics**
 20. **Why does specific heat differ for metals and insulators at low temperatures?**
     - **Answer**: 
-      - Metals: Contribution from electrons and lattice vibrations (\(C \sim T + T^3\)).
-      - Insulators: Dominated by lattice vibrations (\(C \sim T^3\)).
+      - Metals: Contribution from electrons and lattice vibrations $(\(C \sim T + T^3\))$.
+      - Insulators: Dominated by lattice vibrations $(\(C \sim T^3\))$.
 
 21. **What is the Debye model?**
     - **Answer**: It approximates the specific heat of solids at low temperatures:
-      \[
+      $\[
       C_V \sim T^3 \text{ (low \(T\))}, \quad C_V \to 3Nk_B \text{ (high \(T\))}
-      \]
+      \]$
 
 ---
 
@@ -515,39 +515,39 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 #### **Canonical vs. Microcanonical vs. Grand Canonical Ensembles**
 1. **What are the differences between the microcanonical, canonical, and grand canonical ensembles?**  
    **Answer**:  
-   - **Microcanonical Ensemble**: Fixed \(E, V, N\); isolated system.  
-     - Key quantity: entropy (\(S\)).  
-   - **Canonical Ensemble**: Fixed \(T, V, N\); system exchanges energy with a reservoir.  
-     - Key quantity: partition function (\(Z\)).  
-   - **Grand Canonical Ensemble**: Fixed \(T, V, \mu\); system exchanges energy and particles with a reservoir.  
-     - Key quantity: grand partition function (\(\mathcal{Z}\)).
+   - **Microcanonical Ensemble**: Fixed $\(E, V, N\)$; isolated system.  
+     - Key quantity: entropy $(\(S\))$.  
+   - **Canonical Ensemble**: Fixed $\(T, V, N\)$; system exchanges energy with a reservoir.  
+     - Key quantity: partition function $(\(Z\))$.  
+   - **Grand Canonical Ensemble**: Fixed $\(T, V, \mu\)$; system exchanges energy and particles with a reservoir.  
+     - Key quantity: grand partition function $(\(\mathcal{Z}\))$.
 
 2. **What is the role of the partition function in statistical mechanics?**  
    **Answer**:  
    The partition function encodes the statistical properties of a system. It links microscopic states to macroscopic quantities:
    - Canonical partition function:
-     \[
+     $\[
      Z = \sum_i e^{-\beta E_i}
-     \]
+     \]$
    - Grand partition function:
-     \[
+    $\[
      \mathcal{Z} = \sum_{N=0}^\infty \sum_i e^{\beta \mu N - \beta E_i}
-     \]
-   From \(Z\), we derive thermodynamic quantities like free energy, entropy, and heat capacity.
+     \]$
+   From $\(Z\)$, we derive thermodynamic quantities like free energy, entropy, and heat capacity.
 
 3. **What are the similarities between the ensembles?**  
    **Answer**:  
-   All ensembles describe the same system in the thermodynamic limit (\(N \to \infty\)), where fluctuations become negligible.
+   All ensembles describe the same system in the thermodynamic limit $(\(N \to \infty\))$, where fluctuations become negligible.
 
 4. **How does the concept of chemical potential differ between the ensembles?**  
    **Answer**:  
-   - In the **grand canonical ensemble**, \(\mu\) is a fixed parameter.  
-   - In the **canonical ensemble**, \(\mu\) is determined indirectly from \(T, V, N\).  
-   - In the **microcanonical ensemble**, \(\mu\) can be calculated only after the entropy is defined as a function of \(E, N, V\).
+   - In the **grand canonical ensemble**, $\(\mu\)$ is a fixed parameter.  
+   - In the **canonical ensemble**, $\(\mu\)$ is determined indirectly from $\(T, V, N\)$.  
+   - In the **microcanonical ensemble**, $\(\mu\)$ can be calculated only after the entropy is defined as a function of $\(E, N, V\)$.
 
 5. **What is the equivalence of ensembles?**  
    **Answer**:  
-   Ensembles are equivalent in the thermodynamic limit. The macrostate predictions of microcanonical, canonical, and grand canonical ensembles converge when \(N\) is large.
+   Ensembles are equivalent in the thermodynamic limit. The macrostate predictions of microcanonical, canonical, and grand canonical ensembles converge when $\(N\)$ is large.
 
 ---
 
@@ -568,25 +568,25 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 8. **How does the van der Waals equation correct the ideal gas law?**  
    **Answer**:  
    The van der Waals equation accounts for finite particle size and inter-particle attractions:  
-   \[
+  $ \[
    \left(P + \frac{a}{V_m^2}\right)(V_m - b) = RT
-   \]  
-   - \(a\): accounts for attractive forces.  
-   - \(b\): accounts for the finite size of molecules.
+   \] $ 
+   - $\(a\)$: accounts for attractive forces.  
+   - $\(b\)$: accounts for the finite size of molecules.
 
 9. **Compare the compressibility factor \(Z\) for ideal and real gases.**  
    **Answer**:  
-   - Ideal gas: \(Z = 1\).  
-   - Real gas: \(Z = PV_m/RT\), where \(Z \neq 1\) due to deviations caused by interactions and finite size.
+   - Ideal gas: $\(Z = 1\)$.  
+   - Real gas: $\(Z = PV_m/RT\)$, where $\(Z \neq 1\)$ due to deviations caused by interactions and finite size.
 
 10. **What is the significance of the critical point in the van der Waals model?**  
     **Answer**:  
     At the critical point:
     - The gas and liquid phases become indistinguishable.  
     - Critical parameters are derived:
-      \[
+      $\[
       T_c = \frac{8a}{27Rb}, \quad P_c = \frac{a}{27b^2}, \quad V_c = 3b
-      \]
+      \]$
 
 ---
 
@@ -600,77 +600,77 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 
 12. **What is the quantum degeneracy parameter?**  
     **Answer**:  
-    \[
+    $\[
     \eta = \frac{n \lambda_T^3}{g}
-    \]
-    - \(n\): number density.  
-    - \(\lambda_T\): thermal de Broglie wavelength.  
-    - \(g\): degeneracy factor.  
-    Quantum effects become important when \(\eta \gtrsim 1\).
+    \]$
+    - $\(n\)$: number density.  
+    - $\(\lambda_T\)$: thermal de Broglie wavelength.  
+    - $\(g\)$: degeneracy factor.  
+    Quantum effects become important when $\(\eta \gtrsim 1\)$.
 
 13. **How does the specific heat differ between classical and quantum gases?**  
     **Answer**:  
-    - Classical gas: \(C_V = \frac{3}{2}Nk_B\).  
-    - Fermi gas: Deviates at low \(T\), where \(C_V \propto T\).  
-    - Bose gas: Below \(T_c\), specific heat increases sharply due to Bose-Einstein condensation.
+    - Classical gas: $\(C_V = \frac{3}{2}Nk_B\)$.  
+    - Fermi gas: Deviates at low $\(T\)$, where $\(C_V \propto T\)$.  
+    - Bose gas: Below $\(T_c\)$, specific heat increases sharply due to Bose-Einstein condensation.
 
 ---
 
 #### **Fermi-Dirac vs. Bose-Einstein Statistics**
 14. **What is the Fermi-Dirac distribution?**  
     **Answer**:  
-    \[
+    $\[
     f(E) = \frac{1}{e^{\beta (E - \mu)} + 1}
-    \]  
+    \]$  
     It describes the occupation of energy states by fermions (e.g., electrons).
 
 15. **What is the Bose-Einstein distribution?**  
     **Answer**:  
-    \[
+    $\[
     f(E) = \frac{1}{e^{\beta (E - \mu)} - 1}
-    \]  
+    \]$ 
     It describes the occupation of energy states by bosons (e.g., photons, helium-4 atoms).
 
 16. **How does Bose-Einstein condensation occur?**  
     **Answer**:  
-    At \(T < T_c\), a macroscopic number of bosons occupy the ground state, leading to condensation:
-    \[
+    At $\(T < T_c\)$, a macroscopic number of bosons occupy the ground state, leading to condensation:
+    $\[
     N_0 = N \left(1 - \left(\frac{T}{T_c}\right)^{3/2}\right)
-    \]
+    \]$
 
 17. **What is the difference in energy distribution between fermions and bosons?**  
     **Answer**:  
-    - Fermions: Energy levels are filled up to the Fermi energy at \(T = 0\).  
+    - Fermions: Energy levels are filled up to the Fermi energy at $\(T = 0\)$.  
     - Bosons: No restriction; many particles can occupy the same state.
 
 ---
 ### **Ising Model**
 
 #### **Overview**
-The Ising model describes ferromagnetic systems, focusing on spin interactions in a lattice. Each site \(i\) has a spin variable \(s_i\) (\(s_i = \pm 1\)) representing magnetic dipole moments. 
+The Ising model describes ferromagnetic systems, focusing on spin interactions in a lattice. Each site $\(i\)$ has a spin variable $\(s_i\)$ $(\(s_i = \pm 1\))$ representing magnetic dipole moments. 
 
 #### **Hamiltonian**
-\[
+$\[
 H = -J \sum_{\langle i, j \rangle} s_i s_j - h \sum_i s_i
-\]
-- \(J\): Interaction strength between neighboring spins (\(J > 0\) for ferromagnetic interactions).  
-- \(h\): External magnetic field.  
-- \(\langle i, j \rangle\): Summation over nearest neighbors.
+\]$
+- $\(J\)$: Interaction strength between neighboring spins $(\(J > 0\)$ for ferromagnetic interactions).  
+- $\(h\)$: External magnetic field.  
+- $\(\langle i, j \rangle\)$: Summation over nearest neighbors.
 
 #### **Key Features**
 1. **1D Ising Model (No External Field)**:  
    Exact solution via transfer matrix methods shows no phase transition at finite temperatures.  
    - Partition function:
-     \[
+    $ \[
      Z = \text{Tr} \, T^N
-     \]
-     where \(T\) is the transfer matrix.
+     \]$
+     where $\(T\)$ is the transfer matrix.
      
 2. **2D Ising Model (Zero Field)**:  
    Exhibits a phase transition at a critical temperature (\(T_c\)). Solved analytically by Onsager. Critical temperature:
-   \[
+   $\[
    k_B T_c = \frac{2J}{\ln(1 + \sqrt{2})}
-   \]
+   \]$
 
 3. **Applications**:  
    - Magnetic systems.  
@@ -701,9 +701,9 @@ The Takahashi gas is a model that generalizes the behavior of systems where inte
 
 | **Aspect**           | **Ising Model**                 | **Gas Models (e.g., Van der Waals)**              |
 |-----------------------|---------------------------------|---------------------------------------------------|
-| **Key Variables**     | Spin states (\(s_i\))          | Volume, pressure, and temperature (\(P, V, T\)).  |
+| **Key Variables**     | Spin states $(\(s_i\))$         | Volume, pressure, and temperature $(\(P, V, T\))$.  |
 | **Interactions**      | Nearest-neighbor (lattice)     | Particle-particle (long-range).                  |
-| **Critical Behavior** | Phase transitions at \(T_c\).  | Phase transitions (e.g., condensation).          |
+| **Critical Behavior** | Phase transitions at $\(T_c\)$.  | Phase transitions (e.g., condensation).          |
 | **Applications**      | Magnetism, lattice systems.    | Thermodynamics of real gases.                    |
 
 ---
@@ -712,20 +712,20 @@ The Takahashi gas is a model that generalizes the behavior of systems where inte
 
 #### **Heisenberg Model**
 - Generalizes the Ising model to include vector spins with \(x, y, z\) components:
-  \[
+  $\[
   H = -J \sum_{\langle i, j \rangle} \mathbf{s}_i \cdot \mathbf{s}_j
-  \]
+  \]$
 - Incorporates quantum effects and isotropic interactions.  
 
 #### **Potts Model**
-- Generalizes the Ising model to \(q\)-state spins (\(q = 2\) reduces to Ising model).  
+- Generalizes the Ising model to $\(q\)$-state spins $(\(q = 2\)$ reduces to Ising model).  
 - Richer behavior for \(q > 2\), used to study multi-state systems like biological membranes.
 
 #### **XY Model**
 - Spins can rotate in the \(xy\)-plane:
-  \[
+  $\[
   H = -J \sum_{\langle i, j \rangle} \cos(\theta_i - \theta_j)
-  \]
+  \]$
 - Used in superfluidity and superconductivity studies.  
 
 ---
@@ -743,9 +743,9 @@ The Takahashi gas is a model that generalizes the behavior of systems where inte
 
 4. **What is the critical temperature in the 2D Ising model?**  
    **Answer**:  
-   \[
+   $\[
    T_c = \frac{2J}{k_B \ln(1 + \sqrt{2})}
-   \]
+   \]$
 
 5. **Why is the Takahashi gas model significant in quantum mechanics?**  
    **Answer**: It bridges classical gas models and quantum integrable systems, helping understand collective quantum behaviors.
@@ -783,7 +783,7 @@ A phase transition occurs when a system undergoes a qualitative change in its ph
      - Critical exponents describe the behavior near the critical point.
 
    **Example**: Ising Model  
-   The 2D Ising model exhibits a second-order phase transition at the critical temperature (\(T_c\)) where magnetization vanishes continuously.
+   The 2D Ising model exhibits a second-order phase transition at the critical temperature $(\(T_c\))$ where magnetization vanishes continuously.
 
 ---
 
@@ -792,9 +792,9 @@ The order parameter is a quantity that characterizes the degree of order in the 
 
 | **Phase Transition**      | **Order Parameter**              |
 |----------------------------|-----------------------------------|
-| Liquid to Gas              | Density difference (\(\rho_l - \rho_g\)). |
-| Ferromagnetic to Paramagnetic | Magnetization (\(M\)).          |
-| Superconductor to Normal State | Superconducting gap (\(\Delta\)). |
+| Liquid to Gas              | Density difference $(\(\rho_l - \rho_g\))$. |
+| Ferromagnetic to Paramagnetic | Magnetization $(\(M\))$.          |
+| Superconductor to Normal State | Superconducting gap $(\(\Delta\))$. |
 
 ---
 
@@ -807,20 +807,20 @@ The order parameter is a quantity that characterizes the degree of order in the 
   Near the critical point:
   - **Correlation Length (\(\xi\))**:  
     Diverges as:
-    \[
+    $\[
     \xi \sim |T - T_c|^{-\nu}
-    \]
+    \]$
     where \(\nu\) is a critical exponent.
 
   - **Susceptibility (\(\chi\))**:  
-    \[
+    $\[
     \chi \sim |T - T_c|^{-\gamma}
-    \]
+    \]$
 
   - **Heat Capacity (\(C\))**:  
-    \[
+    $\[
     C \sim |T - T_c|^{-\alpha}
-    \]
+    \]$
 
 ---
 
@@ -828,7 +828,7 @@ The order parameter is a quantity that characterizes the degree of order in the 
 
 1. **Ising Model (2D)**:  
    - Second-order phase transition.  
-   - Magnetization (\(M\)) goes to zero continuously at \(T_c\).  
+   - Magnetization $(\(M\))$ goes to zero continuously at $\(T_c\)$.  
    - Diverging correlation length and susceptibility.
 
 2. **Van der Waals Gas**:  
