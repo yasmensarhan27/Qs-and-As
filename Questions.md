@@ -4,7 +4,7 @@
 #### **Scaling**
 Scaling refers to the study of how physical systems behave near critical points, where characteristic quantities such as correlation lengths, order parameters, or susceptibility diverge. 
 - **Critical Exponents**: These describe the scaling behavior of physical quantities near the critical point. For example, 
-  - Magnetization scales as \( M \sim (T_c - T)^\beta \).
+  - Magnetization scales as $\( M \sim (T_c - T)^\beta \)$.
   - Correlation length scales as \( \xi \sim |T - T_c|^{-\nu} \).
 - **Universality**: Systems with the same dimensionality and symmetry share critical exponents.
 - **Renormalization Group (RG)**: It formalizes scaling by iteratively "zooming out" on the system and rescaling. Fixed points in RG flows describe the universality classes.
