@@ -138,23 +138,23 @@ In biological systems, scaling laws describe how physiological and metabolic tra
 ##### **Key Examples**:
 1. **Metabolic Rate**:
    - Metabolic rate \(B\) scales with body mass \(M\) as:
-     \[
-     $B \sim M^{3/4}
-     $\]
+     $\[
+     B \sim M^{3/4}
+     \]$
      This "quarter-power scaling" is nearly universal across organisms.
    - Origin: Constraints on energy distribution and resource transport networks.
 
 2. **Heart Rate**:
    - Heart rate \(f\) scales inversely with body mass:
-     \[$
+     $\[
      f \sim M^{-1/4}
-     $\]
+     \]$
 
 3. **Lifespan**:
    - Lifespan increases with body size:
-     \[
-     $\tau \sim M^{1/4}$
-     \]
+     $\[
+     \tau \sim M^{1/4}
+     \]$
 
 4. **Allometric Scaling**:
    - Relates organ sizes, physiological rates, and growth patterns to body mass or other characteristic measures.
@@ -175,9 +175,9 @@ Non-interacting quantum systems consist of particles that do not directly influe
 
 #### **Partition Function**:
 For a single quantum state of energy \(\epsilon_i\), the grand partition function is:
-\[
-$\mathcal{Z}_i = \sum_{n} e^{-\beta n (\epsilon_i - \mu)}$
-\]
+$\[
+\mathcal{Z}_i = \sum_{n} e^{-\beta n (\epsilon_i - \mu)}
+\]$
 where:
 - $\(n\)$: Occupation number.
 - $\(\beta = 1/(k_B T)\)$.
@@ -185,32 +185,32 @@ where:
 
 #### **Key Distributions**:
 1. **Bose-Einstein Distribution (Bosons)**:
-   \[
-   $\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} - 1}$
-   \]
+   $\[
+   \langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} - 1}
+   \]$
    - No restriction on the occupation number ($\(n_i\)$).
    - Leads to phenomena like Bose-Einstein condensation.
 
-2. **Fermi-Dirac Distribution (Fermions)**:
-   \[
-   $\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} + 1}$
-   \]
+3. **Fermi-Dirac Distribution (Fermions)**:
+   $\[
+   \langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} + 1}
+   \]$
    - Occupation is restricted to $\(n_i = 0\)$ or $\(1\)$ (Pauli exclusion principle).
    - Determines the structure of degenerate systems, e.g., white dwarfs.
 
 #### **Thermodynamic Properties**:
 - **Energy**: 
-  \[
-  $U = \sum_i \langle n_i \rangle \epsilon_i$
-  \]
+  $\[
+  U = \sum_i \langle n_i \rangle \epsilon_i
+  \]$
 - **Entropy**: Derived from state probabilities:
-  \[
-  $S = -k_B \sum_i \left[ \langle n_i \rangle \ln \langle n_i \rangle + (1 - \langle n_i \rangle) \ln (1 - \langle n_i \rangle) \right]$
-  \]
+  $\[
+  S = -k_B \sum_i \left[ \langle n_i \rangle \ln \langle n_i \rangle + (1 - \langle n_i \rangle) \ln (1 - \langle n_i \rangle) \right]
+  \]$
 - **Pressure**:
-  \[
-  $P = -\frac{\partial F}{\partial V}$
-  \]
+  $\[
+  P = -\frac{\partial F}{\partial V}
+  \]$
 
 ---
 
@@ -220,7 +220,7 @@ where:
 |--------------------------|--------------------------------------------------|------------------------------------------------|
 | **Particles**            | Fermions (e.g., electrons, protons, neutrons)    | Bosons (e.g., photons, helium-4 atoms)         |
 | **Quantum States**       | Max 1 particle per state (Pauli exclusion)       | No restriction on particle number per state    |
-| **Distribution**         | \(\langle n \rangle = \frac{1}{e^{\beta(\epsilon - \mu)} + 1}\) | \(\langle n \rangle = \frac{1}{e^{\beta(\epsilon - \mu)} - 1}\) |
+| **Distribution**         | $\(\langle n \rangle = \frac{1}{e^{\beta(\epsilon - \mu)} + 1}\)$ | $\(\langle n \rangle = \frac{1}{e^{\beta(\epsilon - \mu)} - 1}\)$ |
 | **Low Temperature Behavior** | Forms degenerate gas; energy states fill up to Fermi energy | Condensate forms; macroscopic occupation of ground state |
 | **Examples**             | Degenerate electron gas in metals, neutron stars | Laser light, superfluid helium, Bose gases     |
 
