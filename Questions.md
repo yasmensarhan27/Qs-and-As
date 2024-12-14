@@ -28,14 +28,14 @@ The transfer matrix is a powerful tool for studying 1D and 2D lattice models, su
 #### **Key Differences**
 1. **Quantum Statistics**:
    - **Bosons** follow Bose-Einstein statistics:
-     \[
+     $\[
      \langle n \rangle = \frac{1}{e^{\beta(\epsilon - \mu)} - 1}
-     \]
-     where \( \langle n \rangle \) is the occupation number.
+     \]$
+     where $\( \langle n \rangle \)$ is the occupation number.
    - **Fermions** follow Fermi-Dirac statistics:
-     \[
+     $\[
      \langle n \rangle = \frac{1}{e^{\beta(\epsilon - \mu)} + 1}
-     \]
+     \]$
 
 2. **Behavior**:
    - **Bosons** can occupy the same state, leading to phenomena like Bose-Einstein condensation.
@@ -50,24 +50,24 @@ The transfer matrix is a powerful tool for studying 1D and 2D lattice models, su
 ### **3. Van der Waals Equation of State**
 
 The Van der Waals equation modifies the ideal gas law to account for intermolecular forces and finite particle sizes:
-\[
+$\[
 \left( P + \frac{a}{V^2} \right) (V - b) = RT
-\]
+\]$
 Where:
-- \(a\): Corrects for attractive forces between molecules.
-- \(b\): Accounts for the finite size of molecules.
+- $\(a\)$: Corrects for attractive forces between molecules.
+- $\(b\)$: Accounts for the finite size of molecules.
 - **Key Phenomena**: 
   - Explains liquefaction of gases.
-  - Critical temperature \(T_c\) and critical pressure \(P_c\) are predicted from its parameters.
+  - Critical temperature $\(T_c\)$ and critical pressure $\(P_c\)$ are predicted from its parameters.
 
 ---
 
 ### **4. Liouville’s Theorem**
 
 Liouville's theorem states that the phase-space density \( \rho(p, q, t) \) remains constant along a trajectory in phase space:
-\[
+$\[
 \frac{d\rho}{dt} = 0
-\]
+\]$
 This implies:
 - **Conservation of Phase-Space Volume**: The total phase-space volume occupied by a system is invariant under Hamiltonian evolution.
 - **Applications**: Fundamental in deriving the microcanonical ensemble and explaining equilibrium states.
@@ -77,9 +77,9 @@ This implies:
 ### **5. Adiabatic Theorem**
 
 The adiabatic theorem describes systems where parameters in the Hamiltonian change slowly over time:
-\[
+$\[
 \frac{dH}{dt} \to 0
-\]
+\]$
 - **Implication**: A quantum system in an eigenstate of the Hamiltonian remains in an instantaneous eigenstate of the evolving Hamiltonian if the evolution is sufficiently slow.
 - **Applications**: Foundation of adiabatic quantum computation and used in statistical mechanics for quasi-static processes.
 
@@ -88,10 +88,10 @@ The adiabatic theorem describes systems where parameters in the Hamiltonian chan
 ### **6. Sommerfeld Expansion**
 
 The Sommerfeld expansion is a technique for approximating integrals of Fermi-Dirac distributions at low temperatures:
-\[
+$\[
 \int_0^\infty f(x) g(x) dx \approx \int_0^{\mu} g(x) dx + \frac{\pi^2}{6} \left( k_B T \right)^2 g'(\mu) + \dots
-\]
-- **Key Insight**: At low \(T\), only states near the Fermi surface contribute significantly.
+\]$
+- **Key Insight**: At low $\(T\)$, only states near the Fermi surface contribute significantly.
 - **Applications**:
   - Electronic heat capacity in metals.
   - Derivation of thermodynamic quantities like chemical potential at low \(T\).
@@ -100,32 +100,30 @@ The Sommerfeld expansion is a technique for approximating integrals of Fermi-Dir
 
 ### **Scaling in Statistical Mechanics and Biological Systems**
 
----
-
 #### **1. Scaling in Statistical Mechanics**
 
 Scaling describes how physical quantities behave under changes in the size of the system or proximity to critical points. It often involves studying systems near phase transitions, where macroscopic properties (like magnetization, heat capacity, or correlation length) exhibit power-law behavior. 
 
 ##### **Key Ideas in Scaling:**
 1. **Critical Phenomena**:
-   - Near a critical point (e.g., \(T_c\)), the system's behavior becomes independent of microscopic details, and universal features emerge.
+   - Near a critical point (e.g., $\(T_c\)$), the system's behavior becomes independent of microscopic details, and universal features emerge.
    - Correlation length (\(\xi\)) diverges:
-     \[
+    $\[
      \xi \sim |T - T_c|^{-\nu}
-     \]
+     \]$
    - Magnetization (\(M\)) follows:
-     \[
+     $\[
      M \sim |T - T_c|^{\beta}
-     \]
+     \]$
    - Heat capacity scales as:
-     \[
+     $\[
      C \sim |T - T_c|^{-\alpha}
-     \]
+     \]$
 
 2. **Renormalization Group (RG)**:
    - Systematically "rescale" the system by reducing its degrees of freedom while preserving its macroscopic properties.
    - Fixed points of RG flows determine universality classes.
-   - Critical exponents are linked through scaling relations, e.g., \(\alpha + 2\beta + \gamma = 2\).
+   - Critical exponents are linked through scaling relations, e.g., $\(\alpha + 2\beta + \gamma = 2\)$.
 
 ##### **Applications**:
 - Critical exponents unify diverse systems, such as magnets and fluids, based on dimensionality and symmetry.
@@ -141,21 +139,21 @@ In biological systems, scaling laws describe how physiological and metabolic tra
 1. **Metabolic Rate**:
    - Metabolic rate \(B\) scales with body mass \(M\) as:
      \[
-     B \sim M^{3/4}
-     \]
+     $B \sim M^{3/4}
+     $\]
      This "quarter-power scaling" is nearly universal across organisms.
    - Origin: Constraints on energy distribution and resource transport networks.
 
 2. **Heart Rate**:
    - Heart rate \(f\) scales inversely with body mass:
-     \[
+     \[$
      f \sim M^{-1/4}
-     \]
+     $\]
 
 3. **Lifespan**:
    - Lifespan increases with body size:
      \[
-     \tau \sim M^{1/4}
+     $\tau \sim M^{1/4}$
      \]
 
 4. **Allometric Scaling**:
@@ -178,40 +176,40 @@ Non-interacting quantum systems consist of particles that do not directly influe
 #### **Partition Function**:
 For a single quantum state of energy \(\epsilon_i\), the grand partition function is:
 \[
-\mathcal{Z}_i = \sum_{n} e^{-\beta n (\epsilon_i - \mu)}
+$\mathcal{Z}_i = \sum_{n} e^{-\beta n (\epsilon_i - \mu)}$
 \]
 where:
-- \(n\): Occupation number.
-- \(\beta = 1/(k_B T)\).
-- \(\mu\): Chemical potential.
+- $\(n\)$: Occupation number.
+- $\(\beta = 1/(k_B T)\)$.
+- $\(\mu\)$: Chemical potential.
 
 #### **Key Distributions**:
 1. **Bose-Einstein Distribution (Bosons)**:
    \[
-   \langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} - 1}
+   $\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} - 1}$
    \]
-   - No restriction on the occupation number (\(n_i\)).
+   - No restriction on the occupation number ($\(n_i\)$).
    - Leads to phenomena like Bose-Einstein condensation.
 
 2. **Fermi-Dirac Distribution (Fermions)**:
    \[
-   \langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} + 1}
+   $\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} + 1}$
    \]
-   - Occupation is restricted to \(n_i = 0\) or \(1\) (Pauli exclusion principle).
+   - Occupation is restricted to $\(n_i = 0\)$ or $\(1\)$ (Pauli exclusion principle).
    - Determines the structure of degenerate systems, e.g., white dwarfs.
 
 #### **Thermodynamic Properties**:
 - **Energy**: 
   \[
-  U = \sum_i \langle n_i \rangle \epsilon_i
+  $U = \sum_i \langle n_i \rangle \epsilon_i$
   \]
 - **Entropy**: Derived from state probabilities:
   \[
-  S = -k_B \sum_i \left[ \langle n_i \rangle \ln \langle n_i \rangle + (1 - \langle n_i \rangle) \ln (1 - \langle n_i \rangle) \right]
+  $S = -k_B \sum_i \left[ \langle n_i \rangle \ln \langle n_i \rangle + (1 - \langle n_i \rangle) \ln (1 - \langle n_i \rangle) \right]$
   \]
 - **Pressure**:
   \[
-  P = -\frac{\partial F}{\partial V}
+  $P = -\frac{\partial F}{\partial V}$
   \]
 
 ---
@@ -228,18 +226,18 @@ where:
 
 #### **Key Phenomena**:
 1. **Bose-Einstein Condensation (BEC)**:
-   - At \(T \to 0\), a macroscopic number of bosons occupy the ground state.
+   - At $\(T \to 0\)$, a macroscopic number of bosons occupy the ground state.
    - Critical temperature:
      \[
-     T_c \sim \frac{\hbar^2}{k_B} \left( \frac{n}{m} \right)^{2/3}
+    $T_c \sim \frac{\hbar^2}{k_B} \left( \frac{n}{m} \right)^{2/3}$
      \]
    - Examples: Cold atomic gases, superfluidity in helium.
 
 2. **Degenerate Fermi Gas**:
-   - At \(T = 0\), all states below the Fermi energy (\(E_F\)) are filled.
+   - At $\(T = 0\)$, all states below the Fermi energy $(\(E_F\))$ are filled.
    - Fermi energy:
      \[
-     E_F = \frac{\hbar^2}{2m} \left( 3\pi^2 n \right)^{2/3}
+    $E_F = \frac{\hbar^2}{2m} \left( 3\pi^2 n \right)^{2/3}$
      \]
    - Examples: Electrons in metals, white dwarfs.
 
@@ -252,24 +250,24 @@ Here are **additional topics** that could come up in your statistical mechanics 
 1. **What is the significance of the partition function?**
    - **Answer**: The partition function (\(Z\)) encapsulates all thermodynamic information of a system in the canonical ensemble. It is defined as:
      \[
-     Z = \sum_i e^{-\beta E_i}
+     $Z = \sum_i e^{-\beta E_i}$
      \]
      or, for continuous states:
      \[
-     Z = \int e^{-\beta E} \, g(E) \, dE
+     $Z = \int e^{-\beta E} \, g(E) \, dE$
      \]
-     From \(Z\), one can compute the free energy (\(F = -k_B T \ln Z\)), internal energy, entropy, and other properties.
+     From $\(Z\)$, one can compute the free energy ($\(F = -k_B T \ln Z\)$), internal energy, entropy, and other properties.
 
 2. **How does the partition function differ for distinguishable and indistinguishable particles?**
    - **Answer**:
-     - **Distinguishable particles**: \(Z = Z_1^N\), where \(Z_1\) is the single-particle partition function, and \(N\) is the number of particles.
+     - **Distinguishable particles**: $\(Z = Z_1^N\)$, where $\(Z_1\)$ is the single-particle partition function, and $\(N\)$ is the number of particles.
      - **Indistinguishable particles**: The partition function includes a correction factor to avoid overcounting:
        \[
-       Z = \frac{Z_1^N}{N!}
+       $Z = \frac{Z_1^N}{N!}$
        \]
 
 3. **What is the physical interpretation of the canonical partition function?**
-   - **Answer**: \(Z\) represents the sum of Boltzmann factors (\(e^{-\beta E}\)) over all states, effectively weighting each state by its likelihood of being occupied at temperature \(T\).
+   - **Answer**: $\(Z\)$ represents the sum of Boltzmann factors ($\(e^{-\beta E}\)$) over all states, effectively weighting each state by its likelihood of being occupied at temperature $\(T\)$.
 
 ---
 
@@ -278,11 +276,11 @@ Here are **additional topics** that could come up in your statistical mechanics 
    - **Answer**: Fluctuations in thermodynamic quantities are directly related to response functions:
      - Energy fluctuations relate to heat capacity:
        \[
-       \langle (\Delta E)^2 \rangle = k_B T^2 C_V
+       $\langle (\Delta E)^2 \rangle = k_B T^2 C_V$
        \]
      - Particle number fluctuations relate to compressibility:
        \[
-       \langle (\Delta N)^2 \rangle = k_B T \kappa_T
+       $\langle (\Delta N)^2 \rangle = k_B T \kappa_T$
        \]
 
 5. **Why are fluctuations important in statistical mechanics?**
@@ -298,14 +296,14 @@ Here are **additional topics** that could come up in your statistical mechanics 
 
 7. **What are the key features of critical phenomena?**
    - **Answer**: Near critical points:
-     - Correlation length diverges (\(\xi \sim |T - T_c|^{-\nu}\)).
+     - Correlation length diverges ($\(\xi \sim |T - T_c|^{-\nu}\)$).
      - Fluctuations become scale-invariant.
      - Critical exponents (\(\alpha, \beta, \gamma, \nu, \delta\)) describe behavior and are universal.
 
 8. **What is meant by a Landau theory of phase transitions?**
    - **Answer**: Landau theory uses a free energy expansion in terms of an order parameter (\(\phi\)):
      \[
-     F(\phi) = F_0 + a\phi^2 + b\phi^4 + \dots
+     $F(\phi) = F_0 + a\phi^2 + b\phi^4 + \dots$
      \]
      The coefficients (\(a, b\)) determine the nature of the phase transition.
 
@@ -315,14 +313,14 @@ Here are **additional topics** that could come up in your statistical mechanics 
 9. **What is the density of states (DOS) and why is it important?**
    - **Answer**: DOS, \(g(E)\), is the number of quantum states per unit energy. It determines how particles populate states and influences thermodynamic properties:
      \[
-     \langle n_i \rangle = g(E_i) f(E_i)
+     $\langle n_i \rangle = g(E_i) f(E_i)$
      \]
      where \(f(E_i)\) is the distribution function (Fermi-Dirac or Bose-Einstein).
 
 10. **What happens to a Fermi gas at \(T = 0\)?**
     - **Answer**: At \(T = 0\), all states below the Fermi energy (\(E_F\)) are occupied, and states above are empty. The total energy is the sum of all occupied states:
       \[
-      E_{\text{total}} = \int_0^{E_F} E \, g(E) \, dE
+      $E_{\text{total}} = \int_0^{E_F} E \, g(E) \, dE$
       \]
 
 ---
@@ -349,7 +347,7 @@ Here are **additional topics** that could come up in your statistical mechanics 
     - **Answer**: Ensemble equivalence means that the microcanonical, canonical, and grand canonical ensembles yield the same macroscopic predictions in the thermodynamic limit. Deviations occur for small systems.
 
 16. **How does quantum degeneracy affect specific heat?**
-    - **Answer**: At low temperatures, the specific heat of quantum systems deviates from classical predictions. For fermions, \(C_V \sim T\) at \(T \ll T_F\), while for bosons, Bose-Einstein condensation suppresses contributions from excited states.
+    - **Answer**: At low temperatures, the specific heat of quantum systems deviates from classical predictions. For fermions, $\(C_V \sim T\)$ at $\(T \ll T_F\)$, while for bosons, Bose-Einstein condensation suppresses contributions from excited states.
 
 ---
 
@@ -357,7 +355,7 @@ Here are **additional topics** that could come up in your statistical mechanics 
 17. **What is the connection between entropy and information theory?**
     - **Answer**: In information theory, entropy measures uncertainty or information content:
       \[
-      S = -k_B \sum_i p_i \ln p_i
+      $S = -k_B \sum_i p_i \ln p_i$
       \]
       This is analogous to thermodynamic entropy in equilibrium systems.
 
@@ -372,10 +370,10 @@ Here are **additional topics** commonly covered in statistical mechanics exams, 
 ### **Thermodynamic Potentials and Relations**
 1. **What are the main thermodynamic potentials?**
    - **Answer**: 
-     - Internal energy (\(U\)): \(U = TS - PV + \mu N\)
-     - Helmholtz free energy (\(F\)): \(F = U - TS\)
-     - Gibbs free energy (\(G\)): \(G = F + PV = U - TS + PV\)
-     - Enthalpy (\(H\)): \(H = U + PV\)
+     - Internal energy $(\(U\)): \(U = TS - PV + \mu N\)$
+     - Helmholtz free energy $(\(F\)): \(F = U - TS\)$
+     - Gibbs free energy $(\(G\)): \(G = F + PV = U - TS + PV\)$
+     - Enthalpy $(\(H\)): \(H = U + PV\)$
 
 2. **Why are thermodynamic potentials useful?**
    - **Answer**: They allow us to analyze systems under specific constraints:
