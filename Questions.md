@@ -5,20 +5,20 @@
 Scaling refers to the study of how physical systems behave near critical points, where characteristic quantities such as correlation lengths, order parameters, or susceptibility diverge. 
 - **Critical Exponents**: These describe the scaling behavior of physical quantities near the critical point. For example, 
   - Magnetization scales as $\( M \sim (T_c - T)^\beta \)$.
-  - Correlation length scales as \( \xi \sim |T - T_c|^{-\nu} \).
+  - Correlation length scales as $\( \xi \sim |T - T_c|^{-\nu} \)$.
 - **Universality**: Systems with the same dimensionality and symmetry share critical exponents.
 - **Renormalization Group (RG)**: It formalizes scaling by iteratively "zooming out" on the system and rescaling. Fixed points in RG flows describe the universality classes.
 
 #### **Transfer Matrix**
 The transfer matrix is a powerful tool for studying 1D and 2D lattice models, such as the Ising model.
-- **Definition**: It encodes the Boltzmann weights for adjacent spins. For example, in the 1D Ising model, if spin configurations on two adjacent sites are \(s_i\) and \(s_{i+1}\), the matrix element is:
-  \[
+- **Definition**: It encodes the Boltzmann weights for adjacent spins. For example, in the 1D Ising model, if spin configurations on two adjacent sites are $\(s_i\)$ and $\(s_{i+1}\)$, the matrix element is:
+  $\[
   T(s_i, s_{i+1}) = e^{\beta J s_i s_{i+1}}
-  \]
+  \]$
 - **Eigenvalues**: The largest eigenvalue of the transfer matrix determines the partition function:
-  \[
+  $\[
   Z = \lambda_{\text{max}}^N
-  \]
+  \]$
 - **Applications**: It simplifies summations in partition functions and helps compute observables like magnetization and correlation functions.
 
 ---
